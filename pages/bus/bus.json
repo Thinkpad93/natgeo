@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#29292c",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "国家地理",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#29292c",
+  "onReachBottomDistance": 200
+}

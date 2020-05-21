@@ -1,0 +1,20 @@
+<!--pages/bus/bus.wxml-->
+<view class="page">
+  <view class="page-bd">
+    <!-- <scroll-view scroll-y="true" style="height: 100vh;" bindscroll="bindscroll" bindrefresherpulling="bindrefresherpulling"> -->
+      <view class="album">
+        <view class="item" wx:for="{{ album }}" wx:key="id" data-id="{{ item.id }}" bindtap="toAlbumsPage">
+          <view class="url">
+            <image src="{{ item.url }}" aria-role="img"></image>
+          </view>
+          <view class="title">{{ item.title }}</view>
+          <view class="item-bd flex">
+            <view class="line"></view>
+            <view class="figure"></view>
+            <view class="line"></view>
+          </view>
+        </view>
+      </view>
+    <!-- </scroll-view> -->
+  </view>
+</view>

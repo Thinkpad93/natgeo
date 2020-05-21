@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/bus/bus",
+    "pages/about/about",
+    "pages/more/more",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/collect/collect",
+    "pages/albums/albums"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#29292c",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

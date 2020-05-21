@@ -1,0 +1,40 @@
+<!--pages/albums/albums.wxml-->
+<view class="page">
+  <view class="page-hd">
+    <view class="flex">
+      <view class="logo">
+        <!-- <image src="../../images/logo.png" mode="scaleToFill"></image> -->
+      </view>
+      <view class="menu">
+        <text>菜单{{ swiperIndex + 1 }}</text>
+      </view>
+    </view>
+  </view>
+  <view class="page-bd">
+    <swiper current="{{ current }}" autoplay="{{ autoplay }}" class="swiper" bindchange="swiperChange">
+      <block wx:for="{{ picture }}" wx:key="id">
+        <swiper-item>
+          <view class="swiper-item">
+            <image class="swiper-img" src="{{ item.thumb }}" lazy-load="true" aria-role="img"></image>
+            <view class="title">{{ item.title }}</view>
+            <view class="content">{{ item.content }}</view>
+            <view>{{ picture.length }}</view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="page-ft">
+    <view class="flex">
+      <view class="flex-1">
+        <view class="share">发给朋友看看</view>
+      </view>
+      <view class="flex-1">
+        <view class="collect">收藏</view>
+      </view>
+      <view class="flex-1">
+        <view class="save">保存</view>
+      </view>            
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/about/about.wxml-->
+<view class="page">
+  <view class="page-bd">
+    <text>大石国际文化</text>
+    <view>app@boulderbooks.com.cn</view>
+  </view>
+</view>

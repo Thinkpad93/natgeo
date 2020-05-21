@@ -1,0 +1,37 @@
+/**app.wxss**/
+
+page {
+  line-height: 1.15;
+  font-size: 12px;
+  box-sizing: border-box;
+  font-family: -apple-system, "PingFang SC", "Helvetica Neue", "Microsoft Yahei", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  /* background-color: #dcdfe2;        */
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+image {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+/*
+公用样式
+*/
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
